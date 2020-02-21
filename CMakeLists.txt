@@ -2,7 +2,7 @@
 # CMake
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
-project(roboga_msgs)
+project(zordon_msgs)
 
 ################################################################################
 # Packages
@@ -20,6 +20,8 @@ add_message_files(
   DIRECTORY msg
   FILES
   SensorState.msg
+  OdomCompacted.msg
+  TwistCompacted.msg
 )
 
 add_service_files(

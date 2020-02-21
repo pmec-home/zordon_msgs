@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>roboga_msgs</name>
+  <name>zordon_msgs</name>
   <version>0.0.1</version>
   <description>
     Message and service types: custom messages and services for Jacto packages
